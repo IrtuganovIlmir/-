@@ -424,7 +424,6 @@ img{
 }
 
 .logo-partners{
-    background-image: url("../img/partners-logo.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -432,7 +431,41 @@ img{
     min-width: 198px;
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
+    background-color: #000;
 }
+
+.logo-partners1 {
+    background-image: url("../img/logo-partners1.jpeg");
+}
+
+.logo-partners2 {
+    background-image: url("../img/logo-partners2.jpeg");
+}
+
+.logo-partners3 {
+    background-image: url("../img/logo-partners3.jpeg");
+}
+
+.logo-partners4 {
+    background-image: url("../img/logo-partners4.jpeg");
+}
+
+.logo-partners5 {
+    background-image: url("../img/logo-partners5.jpeg");
+}
+
+.logo-partners6 {
+    background-image: url("../img/logo-partners6.jpg");
+}
+
+.logo-partners7 {
+    background-image: url("../img/logo-partners7.jpeg");
+}
+
+.logo-partners8 {
+    background-image: url("../img/logo-partners8.png");
+}
+
 
 .logo-partners-right{
     border-right: none;

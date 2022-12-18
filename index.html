@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
     <title>PC trening</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container header-container">
@@ -18,11 +28,11 @@
             <div class="header-menu">
                 <ul class="header-menu-item list-reset">
                     <li class="header-menu-text"><a href="#info">Главная</a> </li>
-                    <li class="header-menu-text"><a href="#">Курсы</a> </li>
+                    <li class="header-menu-text"><a href="#curs">Курсы</a> </li>
                     <li class="header-menu-text"><a href="#">Расписание</a> </li>
                     <li class="header-menu-text"><a href="#ourTeachers">Преподаватели</a></li>
                     <li class="header-menu-text"><a href="#">Рассылка</a> </li>
-                    <li class="header-menu-text"><a href="#">Контакты</a> </li>
+                    <li class="header-menu-text"><a href="#contacts">Контакты</a> </li>
                 </ul>
                 <button class="header-account btn-reset">Войти</button>
             </div>
@@ -53,6 +63,7 @@
             </div>
         </section>
         <section class="pay-curs">
+            <div id="curs"></div>
             <div class="container">
                 <div class="pay-curs-item">
                     <div class="pay-curs-column">
@@ -86,7 +97,12 @@
                     <div class="about-text">
                         <h2 class="about-title">Чем мы занимаемся</h2>
                         <p class="about-subtitle">
-                            Каждый из&nbsp;нас понимает очевидную вещь: базовый вектор развития позволяет выполнить важные задания по&nbsp;разработке своевременного выполнения сверхзадачи. Повседневная практика показывает, что высококачественный прототип будущего проекта играет определяющее значение для форм воздействия. А&nbsp;также базовые сценарии поведения пользователей призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть в&nbsp;равной степени предоставлены сами себе.
+                            Каждый из&nbsp;нас понимает очевидную вещь: базовый вектор развития позволяет выполнить
+                            важные задания по&nbsp;разработке своевременного выполнения сверхзадачи. Повседневная
+                            практика показывает, что высококачественный прототип будущего проекта играет определяющее
+                            значение для форм воздействия. А&nbsp;также базовые сценарии поведения пользователей
+                            призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть
+                            в&nbsp;равной степени предоставлены сами себе.
                         </p>
                     </div>
                 </div>
@@ -95,10 +111,11 @@
         <section class="fast-start">
             <div class="container cont-fast-start">
                 <div class="fast-start-title">
-                    <img src="img/icon-half.png" alt="" class = "iconhalf">
+                    <img src="img/icon-half.png" alt="" class="iconhalf">
                     <h2 class="about-title">Быстрый старт</h2>
                 </div>
-                <p class="fast-start-subtitle">Больше&nbsp;90% учеников прошли полный курс и&nbsp;смогли <br> собрать свой первый компьютер</p>
+                <p class="fast-start-subtitle">Больше&nbsp;90% учеников прошли полный курс и&nbsp;смогли <br> собрать
+                    свой первый компьютер</p>
             </div>
         </section>
         <section class="graphics">
@@ -116,10 +133,18 @@
                     <div class="graphics-start-border-four"></div>
                 </div>
                 <div class="graphics-start-subtitle">
-                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.</div>
-                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.</div>
-                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.</div>
-                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.</div>
+                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget
+                        velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus.
+                        Placerat dui.</div>
+                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget
+                        velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus.
+                        Placerat dui.</div>
+                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget
+                        velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus.
+                        Placerat dui.</div>
+                    <div class="graphics-start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget
+                        velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus.
+                        Placerat dui.</div>
                 </div>
             </div>
         </section>
@@ -132,24 +157,27 @@
                         <h3 class="information-job-title">Только практические <br>
                             навыки в работе</h3>
                         <p class="information-job-subtitle">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan
+                            amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.
                         </p>
                     </div>
                     <div class="information-job">
                         <img src="img/flash.png" alt="" class="information-job-img">
                         <h3 class="information-job-title">Работа на самом <br>
                             современном оборудовании</h3>
-                            <p class="information-job-subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.
-                            </p>
+                        <p class="information-job-subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan
+                            amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.
+                        </p>
                     </div>
                     <div class="information-job">
                         <img src="img/provod.png" alt="" class="information-job-img">
                         <h3 class="information-job-title">Сертификация <br>
                             по окончании обучения</h3>
-                            <p class="information-job-subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.
-                            </p>
+                        <p class="information-job-subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan
+                            amet tortor. Velit, volutpat egestas fringilla mi&nbsp;porttitor tempus. Placerat dui.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -161,14 +189,14 @@
                     <h2 class="about-title">Партнеры - топовые бренды</h2>
                 </div>
                 <div class="partners-logo-subtitle">
-                    <div class="logo-partners"></div>
-                    <div class="logo-partners"></div>
-                    <div class="logo-partners"></div>
-                    <div class="logo-partners logo-partners-right"></div>
-                    <div class="logo-partners logo-partners-bot"></div>
-                    <div class="logo-partners logo-partners-bot"></div>
-                    <div class="logo-partners logo-partners-bot"></div>
-                    <div class="logo-partners logo-partners-right logo-partners-bot"></div>
+                    <div class="logo-partners logo-partners1"></div>
+                    <div class="logo-partners logo-partners2"></div>
+                    <div class="logo-partners logo-partners3"></div>
+                    <div class="logo-partners logo-partners4 logo-partners-right"></div>
+                    <div class="logo-partners logo-partners5 logo-partners-bot"></div>
+                    <div class="logo-partners logo-partners6 logo-partners-bot"></div>
+                    <div class="logo-partners logo-partners7 logo-partners-bot"></div>
+                    <div class="logo-partners logo-partners8 logo-partners-right logo-partners-bot"></div>
                 </div>
             </div>
         </section>
@@ -180,18 +208,18 @@
                 </div>
                 <div class="teachers-title">
                     <div class="teachers-title-about">
-                        <img src="img/teachers1.png" class = "teachers-photo" alt="">
+                        <img src="img/teachers1.png" class="teachers-photo" alt="">
                         <p class="teachers-name">Дмитрий Иванов</p>
                         <p class="teachers-work">Системный администратор</p>
 
                     </div>
                     <div class="teachers-title-about">
-                        <img src="img/teachers2.png" class = "teachers-photo" alt="">
+                        <img src="img/teachers2.png" class="teachers-photo" alt="">
                         <p class="teachers-name">Дмитрий Иванов</p>
                         <p class="teachers-work">Разработчик видеоигр</p>
                     </div>
                     <div class="teachers-title-about">
-                        <img src="img/teachers3.png" class = "teachers-photo" alt="">
+                        <img src="img/teachers3.png" class="teachers-photo" alt="">
                         <p class="teachers-name">Дмитрий Иванов</p>
                         <p class="teachers-work">Программист</p>
 
@@ -200,5 +228,44 @@
             </div>
         </section>
     </main>
+    <footer>
+        <section class="border-top" id="contacts">
+            <div class="container pt-5 pb-5">
+                <div class="partners-title">
+                    <img src="img/partners.png" alt="">
+                    <h2 class="about-title">Контакты</h2>
+                </div>
+                <div class="row text-light mt-5">
+                    <div class="col-4">
+                        <h4 class="fw-normal">Телефон</h4>
+                        <div>...</div>
+                        <h4 class="fw-normal mt-3">Наш Email</h4>
+                        <div>...</div>
+                        <h4 class="fw-normal mt-3">Время работы</h4>
+                        <div>...</div>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="fw-normal">Полезные ссылки</h4>
+                        <nav>
+                            <ul class="header-menu-item list-reset flex-column align-items-start" >
+                                <li class="header-menu-text fw-normal"><a href="#info">Главная</a> </li>
+                                <li class="header-menu-text fw-normal"><a href="#curs">Курсы</a> </li>
+                                <li class="header-menu-text fw-normal"><a href="#">Расписание</a> </li>
+                                <li class="header-menu-text fw-normal"><a href="#ourTeachers">Преподаватели</a></li>
+                                <li class="header-menu-text fw-normal"><a href="#">Рассылка</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="fw-normal">Наши Соцсети</h4>
+                        <a href="/" class="me-3"><img style="width: auto; height:60px;" src="./img/youtube.svg" alt="youtube"></a>
+                        <a href="/" class="me-3"><img style="width: auto; height:60px;" src="./img/vk.svg" alt="vk"></a>
+                        <a href="/" class="me-3"><img style="width: auto; height:60px;" src="./img/instagram.svg" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>
